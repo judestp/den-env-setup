@@ -75,16 +75,10 @@ Expected output:
 Hi <username>! You've successfully authenticated, but GitHub does not provide shell access.
 ```
 
-## Download and Run the Script
+## Download and Run the Environment-Setup.sh
 Terminal: `Ubuntu`  
   
 Command:  
 ```sh
 curl -o script.sh https://raw.githubusercontent.com/judestp/alpha-tokyo-dev-env-setup/main/script.sh && sh script.sh
 ```
-
-## "asdf: command not found"
-
-  Once you encounter `asdf: command not found`, close the terminal and rerun the script
-
-  *restart the terminal after ASDF installation then rerun the script.sh to continue
