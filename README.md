@@ -43,16 +43,6 @@ Command:
 code .
 ```
 
-## Set Up Virtual Host
-Run the command below and add the result to your hosts file located in `C:\Windows\System32\drivers\etc\hosts`. Run as administrator to modify the file or open it with VS Code
-
-Terminal: `Ubuntu`  
-  
-Command:  
-```sh
-clear && echo -e "Copy and paste the line below to your hosts file located in \e[33mC:/Windows/System32/drivers/etc/hosts:\n\n\e[32m$(cat /etc/resolv.conf | grep nameserver | cut -d ' ' -f 2) tokyo.alpha-pestalozzi.test\n\e[0m"
-```
-
 ## Configure Git Credentials
 Terminal: `Ubuntu`  
   
